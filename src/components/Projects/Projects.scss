@@ -1,0 +1,55 @@
+.projects {
+  color: crimson;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project_img {
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.project_container {
+  margin-top: 10px;
+}
+
+.project_img:hover {
+  transform: scale(1.1);
+}
+
+.projet_content {
+  text-align: left;
+  padding: 15px;
+}
+
+.name {
+  margin-top: 10px;
+}
+
+.desc {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.github {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid crimson;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.github:hover {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+}

@@ -1,0 +1,13 @@
+$mainColor: #15023a;
+
+$width: 768px;
+
+body {
+  overflow: hidden;
+}
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}

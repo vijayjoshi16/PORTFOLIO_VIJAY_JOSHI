@@ -1,0 +1,46 @@
+.work_exp {
+  background-color: crimson;
+  color: white;
+  padding-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.company_container {
+  margin: 20px;
+}
+
+.comp_img {
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.company_content {
+  text-align: left;
+  padding: 10px;
+}
+
+.company_date {
+  margin-top: 10px;
+}
+
+.company_desc {
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+.github {
+  margin-top: 10px;
+  background-color: crimson;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.github:hover {
+  background-color: white;
+}

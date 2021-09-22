@@ -1,0 +1,22 @@
+.skills {
+  padding-top: 30px;
+  background-color: white;
+  text-align: center;
+  color: crimson;
+  font-size: 2rem;
+}
+
+.skill_card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 2.5px #d6d6d6;
+  transition: transform 0.2s;
+  margin: 20px;
+  padding: 10px;
+}
+
+.skill_card:hover {
+  transform: scale(1.1);
+}
