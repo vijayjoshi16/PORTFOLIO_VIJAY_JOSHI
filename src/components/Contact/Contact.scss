@@ -86,3 +86,39 @@
 .contact_link {
   margin: 5px;
 }
+
+.email_input {
+  color: crimson;
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid crimson;
+}
+
+.message_area {
+  color: crimson;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid crimson;
+}
+
+.send_btn {
+  margin-top: 20px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid crimson;
+  width: 150px;
+  height: 75px;
+  cursor: pointer;
+}
+
+.send_btn:hover {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+}

@@ -2,11 +2,9 @@ import { useState } from "react";
 import "./Contact.scss";
 
 export default function Contact() {
-  const [message, setMessage] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
+    e.preventDefault()
   };
   return (
     <div className="contact" id="contact">
@@ -16,22 +14,24 @@ export default function Contact() {
       <div className="right">
         <h2 style={{overflow:"hidden"}}>CONTACT</h2>
         
-        <form onSubmit={handleSubmit}>
-          <input style={{marginTop:"10px"}} type="text" placeholder="Email" />
-          <textarea style={{marginTop:"10px"}} placeholder="Message"></textarea>
-          <button style={{marginTop:"10px"}} type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+        <form style={{padding:"5px"}} onSubmit={handleSubmit}>
+          <input className="email_input" type="text" placeholder="Email" />
+          <textarea className="message_area" placeholder="Message"></textarea>
+          <button className="send_btn" type="submit">SEND</button>
+          
         </form>
-        <p style={{fontSize:"1rem",
-        marginTop:"10px",overflow: "hidden"}}>Feel free to contact me and connect with me: </p>
+        <p style={{fontSize:"1rem",color:"black",margin:"10px",
+        marginTop:"20px",overflow: "hidden"}}>Feel free to contact me and connect with me: </p>
         <span
         style={{
           width:"70%",
           height:"200px",
           margin:"auto",
           marginTop:"10px",
-          paddingTop:"10px",
-          textAlign:"center"
+          paddingTop:"30px",
+          textAlign:"center",
+          overflow:"hidden",
+
         }}>
         <a target="_blank" className="contact_link" href="https://in.linkedin.com/in/vijay-joshi-80221a193">
         <img

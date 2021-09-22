@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 export default function WorkExperience(props){
     return(
         <div className="work_exp" id="workExperience">
-            <h1>WORK EXPERIENCE</h1>
+            <h1 style={{fontSize:"2rem",marginLeft:"auto",marginRight:"auto"}}>WORK EXPERIENCE</h1>
             {
                 props.workExperience.map((company)=>{
                     return(

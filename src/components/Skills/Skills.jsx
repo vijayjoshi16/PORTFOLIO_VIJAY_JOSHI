@@ -4,14 +4,21 @@ import "./Skills.scss";
 export default function Skills(props) {
   return(
     <div className="skills" id="skills">
-      <h1>SKILLS</h1>
+      <h1 style={{fontSize:"2rem",marginLeft:"auto",marginRight:"auto"}}>SKILLS</h1>
       
-      <Grid container>
+      <Grid style={{
+        margin:"10px",
+        paddingRight:"20px"
+      }} container>
         {props.skills.map((skill)=>{
           return(
-            <Grid item xs={12} sm={6} md={4} ld={3}>
+            <Grid style={{
+              padding:"10px"
+            }} item xs={6} sm={4} md={3} ld={3}>
             <div className="skill_card">
-              <h6>{skill.name}</h6>
+              <h6 style={{
+                margin:"10px"
+              }}>{skill.name}</h6>
               <i style={{
                 fontSize:"4rem"
               }} class={skill.icon_class}></i>

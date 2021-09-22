@@ -4,7 +4,7 @@ import "./Projects.scss";
 export default function Projects(props) {
   return(
     <div className="projects" id="projects">
-      <h1>PROJECTS</h1>
+      <h1 style={{fontSize:"2rem",marginLeft:"auto",marginRight:"auto"}}>PROJECTS</h1>
       {
         props.projects.map((project)=>{
           return(

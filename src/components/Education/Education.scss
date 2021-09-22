@@ -2,11 +2,13 @@
   color: white;
   padding: 30px;
   margin-bottom: 50px;
+  padding-left: 10px;
 }
 
 .timeline_header {
+  max-width: 100%;
   padding: 10px;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -45,9 +47,9 @@
 }
 
 .edu_grid {
+  max-width: 95%;
   margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto;
 }
 
 .line {
