@@ -210,15 +210,18 @@ export const projects = [
 ]
 
 export const achievements = [
-  "4 star coder on CodeChef",
-  "Codeforces Max Rating Specialist",
+  "4 star coder on CodeChef (Max Rating: 1929)",
+  "Codeforces Max Rating Specialist (1567)",
+  "Leetcode Max Contest Rating 1858 (Knight)",
   "Top 10/905 in Codjuring Coding Contest hosted by NIT Patna",
   "Top 10/520 in ISA HIT Hack-A-Code Competition",
+  "Global rank 239 among 9018 participants in LeetCode Biweekly Contest 65",
+  "Global rank 289 among 8744 participants in LeetCode Biweekly Contest 64",
+  "Global rank 176 among 3214 participants in CodeChef Starters 15 Division 2",
   "Global rank 297 among 6,943 participants in CodeChef August Cook-Off 2020",
   "Global rank 521 among 14,187 participants in CodeChef March Long Challenge 2020",
   "Cleared Google Code Jam 2021 Qualification Round",
-  "Solved 450+ problems on LeetCode and GeeksForGeeks combined",
-  "1000+ GitHub contributions across various personal and open source projects",
-  "27 stars on GitHub, 1.8k+ views in 14 days for my android project SmartKart App",
+  "Solved 500+ problems on LeetCode and GeeksForGeeks combined",
+  "33 stars on GitHub, 1.8k+ views in 14 days for my android project SmartKart App",
   "Top 1.81% among 1.1 million candidates in JEE Main 2019"
 ]

@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="right">
         <h2 style={{overflow:"hidden"}}>CONTACT</h2>
         
-        <form style={{padding:"5px"}} onSubmit={handleSubmit}>
+        <form style={{padding:"5px",width:"100%"}} onSubmit={handleSubmit}>
           <input className="email_input" type="text" placeholder="Email" />
           <textarea className="message_area" placeholder="Message"></textarea>
           <button className="send_btn" type="submit">SEND</button>
