@@ -92,9 +92,36 @@ export const skills = [
 
 export const workExperience = [
   {
+    name: "Yugabyte",
+    logo:"./assets/yugabytedb.webp",
+    position: "Engineering Intern",
+    date: "July 2022 - Present",
+    "description":[
+      "Working with the database team on YugabyteDB - a modern day distributed SQL database",
+      "Developing the YCQL - Yugabyte Cassandra Query Language workload to run complex use-cases similar to real world scenarios"
+    ]
+  },
+  {
+    name: "Blinkit(formerly Grofers)",
+    logo:"./assets/blinkit.webp",
+    position: "Software Development Engineer Intern",
+    date: "March 2022 - July 2022",
+    "description":[
+      "Worked with the Android team on the Blinkit App with over 10 million play store downloads",
+      "Built the frontend for Blinkit Print – India’s first instant print delivery service including features such as multipart file uploading, print preview for various print configurations(color/bnw/portrait/landscape) for the uploaded file and delivery of the printouts from the dark stores in just minutes.",
+      "Impact of the print delivery service includes expansion of Blinkit's scope from initially selling only products on their platform to now providing products as well as services.",
+      "Carried forward code migration of the consumer app from React Native to Native Android (Kotlin)",
+      "Added support for earliest delivery time and sponsorships of products in the consumer app and built the UI for Blinkit Cash feature in the cart page",
+      "Worked on the UI transformation layer for conversion of the pre-existing Blinkit's React Native widgets to Zomato's Kotlin Snippets",
+      "Used MVVM Architecture in Kotlin, wrote clean and production ready code with best possible practices"
+    ],
+    work_link: "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_IN&gl=US"
+  }
+  ,
+  {
     name: "COMET Labs",
     logo:"./assets/comet.jpg",
-    position: "Open Source Web Developer",
+    position: "Web Developer",
     date: "November 2020 - March 2021",
     "description":[
       "Worked on a community platform to connect nearly 5000 IIIT students and clubs from 25 colleges",
@@ -221,7 +248,7 @@ export const achievements = [
   "Global rank 297 among 6,943 participants in CodeChef August Cook-Off 2020",
   "Global rank 521 among 14,187 participants in CodeChef March Long Challenge 2020",
   "Cleared Google Code Jam 2021 Qualification Round",
-  "Solved 500+ problems on LeetCode and GeeksForGeeks combined",
-  "33 stars on GitHub, 1.8k+ views in 14 days for my android project SmartKart App",
+  "Solved 550+ problems on LeetCode on a consistent basis",
+  "40+ stars on GitHub, 1.8k+ views in 14 days for my android project SmartKart App",
   "Top 1.81% among 1.1 million candidates in JEE Main 2019"
 ]

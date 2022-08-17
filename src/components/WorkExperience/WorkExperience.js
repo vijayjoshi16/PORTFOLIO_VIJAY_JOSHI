@@ -26,12 +26,19 @@ export default function WorkExperience(props){
                                     )
                                 })
                             }
-                            <a href={company.work_link}  target="_blank">
-                                <button
-                                className="github">
-                                    GITHUB WORK LINK
-                                </button>
-                            </a>
+                            {
+                                company.work_link!=null
+                                ?
+                                <a href={company.work_link}  target="_blank">
+                                    <button
+                                    className="github">
+                                        WORK LINK
+                                    </button>
+                                </a>
+                                :
+                                <></>
+                            }
+                           
                             </Grid>
                         </Grid>
                     )
