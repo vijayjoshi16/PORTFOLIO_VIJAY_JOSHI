@@ -92,17 +92,34 @@ export const skills = [
 
 export const workExperience = [
   {
-    name: "Yugabyte",
-    logo:"./assets/yugabytedb.webp",
-    position: "Engineering Intern",
-    date: "July 2022 - Present",
+    name: "Navi",
+    logo:"./assets/navi.webp",
+    position: "Software Development Engineer",
+    date: "July 2023 - Present",
     "description":[
-      "Working with the database team on YugabyteDB - a modern day distributed SQL database",
-      "Developing the YCQL - Yugabyte Cassandra Query Language workload to run complex use-cases similar to real world scenarios"
+      "Worked on building a Golang based backend service for Navi’s in-house incident management portal\n" +
+      "replacing Blameless to track the entire lifecycle of customer issues/incidents.",
+      "Designed and implemented integrations with monitoring services to automatically post Grafana images and impacted customer data during alerts and metric breaches caused by third-party vendor issues.",
+      "Collaborated on the development of Gen-AI support, enabling the automated generation of Root Cause Analysis (RCA) documents for customer incidents using data from Google Meet transcripts and Slack conversations, significantly reducing the time required for RCA compared to manual methods.",
+      "Facilitated the onboarding of business units and stakeholders to the platform, ensuring smooth integration and adoption.",
+      "Spearheaded the major migration of all the cron jobs in the service to Airflow improving the reliability, scalability, and manageability of scheduled tasks",
+      "Implemented automatic archival of communication channels post-incident resolution and escalation mechanisms on SLA breaches",
+      "Led a major refactoring effort of the service, addressing significant technical debts, improving service stability, reducing API latency, and enhancing code testability. This initiative resulted in increased code coverage and overall system robustness."
     ]
   },
   {
-    name: "Blinkit(formerly Grofers)",
+    name: "Yugabyte",
+    logo:"./assets/yugabytedb.webp",
+    position: "Engineering Intern",
+    date: "July 2022 - Dec 2022",
+    "description":[
+      "Collaborated with the core database team on YugabyteDB, a cutting-edge distributed SQL database.",
+      "Spearheaded the development of YCQL (Yugabyte Cloud Query Language) workload, simulating real-world complex use cases in a randomised manner.",
+      "Wrote integration tests for xCluster replication in YugabyteDB, facilitating seamless data replication between dual data centers."
+    ]
+  },
+  {
+    name: "Blinkit",
     logo:"./assets/blinkit.webp",
     position: "Software Development Engineer Intern",
     date: "March 2022 - July 2022",
