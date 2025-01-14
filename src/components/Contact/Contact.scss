@@ -3,7 +3,7 @@
 .contact {
   background-color: white;
   display: flex;
-  color: crimson;
+  color: #0047AB;
   font-size: 2rem;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -65,7 +65,7 @@
         width: 150px;
         height: 30px;
         color: white;
-        background-color: crimson;
+        background-color: #0047AB;
         border: none;
         border-radius: 10px;
         font-weight: 500;
@@ -88,22 +88,22 @@
 }
 
 .email_input {
-  color: crimson;
+  color: #0047AB;
   margin-top: 20px;
   height: 50px;
   border-radius: 15px;
   padding: 10px;
   outline: none;
-  border: 1px solid crimson;
+  border: 1px solid #0047AB;
 }
 
 .message_area {
-  color: crimson;
+  color: #0047AB;
   margin-top: 20px;
   border-radius: 15px;
   padding: 10px;
   outline: none;
-  border: 1px solid crimson;
+  border: 1px solid #0047AB;
 }
 
 .send_btn {
@@ -111,7 +111,7 @@
   margin-right: 10px;
   color: white;
   border-radius: 10px;
-  border: 1px solid crimson;
+  border: 1px solid #0047AB;
   width: 150px;
   height: 75px;
   cursor: pointer;
@@ -119,6 +119,6 @@
 
 .send_btn:hover {
   background-color: white;
-  color: crimson;
-  border: 1px solid crimson;
+  color: #0047AB;
+  border: 1px solid #0047AB;
 }

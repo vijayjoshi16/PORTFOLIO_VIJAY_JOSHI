@@ -12,7 +12,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 400,
       backSpeed:60,
-      strings: ["MERN Stack Web Developer", "Competitive Programmer", "Android Developer","ML Enthusiast"],
+      strings: ["Full Stack Developer","MERN Stack Web Developer", "Android Developer","ML Enthusiast"],
     });
   }, []);
 
@@ -28,7 +28,7 @@ export default function Intro() {
           <h2 className="intro_text">Hello World, I'm </h2>
           <h1 className="intro_text">Vijay Joshi</h1>
           <h3 className="intro_text">
-            I'm a <span  style={{color:"crimson"}} ref={textRef}></span>
+            I'm a <span  style={{color:"#0047AB"}} ref={textRef}></span>
           </h3>
           </Grid>
     </Grid>
